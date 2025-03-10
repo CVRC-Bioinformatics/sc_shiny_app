@@ -15,6 +15,12 @@ Create a [scRNAseqAPP](https://www.bioconductor.org/packages/release/bioc/html/s
     
     5. This script generates an R script named 'sc_shiny_app_run.R'. This is what users will use this in the process to load the app.
 
+to-do:
+
+* Add a table as input so one can add multiple seurat objects
+* Augment make_shiny_app.R to deal with above
+* Will work with CITEseq and other assays but the nomenclature has to be worked around. 
+
 *** 
 
 # Load an scRNAseqAPP
