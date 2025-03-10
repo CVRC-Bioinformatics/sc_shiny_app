@@ -21,14 +21,17 @@ Create a [scRNAseqAPP](https://www.bioconductor.org/packages/release/bioc/html/s
 Need a detailed tutorial for the wetlab folks
 
   1. Start an Rstudio server session via OnDemand
+  
     * Select 'Conda Environments' from the 'R version' tab.
     * Path to Conda Environment = '/gpfs/data/cvrcbioinfolab/shared_conda_envs/sc_shiny_app'.
     * Partition = cpu_short.
     * Instance type =  Standard R Job.
     * Number of hours = time needed
+    
   2. Load the session.
   3. Within the R console run 'source directoryfromabove/sc_shiny_app_run.R'.
   4. Within the R console run 'scRNAseqApp(app_path = publish_folder)'.
+  
     * A new browser window will pop up and the app will load.
     
     
