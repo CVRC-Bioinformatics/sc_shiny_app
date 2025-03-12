@@ -53,7 +53,7 @@ Detailed tutorial for loading an app
 
 ## *load the app*
 
-  1. After clicking 'Connect to Rstudio Server', you're Rstudio Server session will open. The screen will look like this:
+  1. After clicking 'Connect to Rstudio Server', your Rstudio Server session will open. The screen will look like this:
     ![image info](readme_images/rstudio_server_5.png)
   2. The R console is the box on the left that says 'console' on the top. Within the R console paste the command we sent you and hit enter. The command will look something like this: 'source directoryfromabove/sc_shiny_app_run.R'.
   3. Within the R console paste the following command and hit enter 'scRNAseqApp(app_path = publish_folder)'.
