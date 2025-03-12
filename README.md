@@ -33,12 +33,14 @@ Detailed tutorial for loading an app
   2. Login with your credentials
   3. Navigate to the Rstudio Server app page  
     ![image info](readme_images/rstudio_server_1.png)
-  4. 
+  4. Request an Rstudio Server session
     - Select 'Conda Environments' from the 'R version' tab.
-    - Path to Conda Environment = '/gpfs/data/cvrcbioinfolab/shared_conda_envs/sc_shiny_app'.
-    - Partition = cpu_short.
-    - Instance type =  Standard R Job.
-    - Number of hours = time needed
+    - 'Path to Conda Environment' - paste: /gpfs/data/cvrcbioinfolab/shared_conda_envs/sc_shiny_app
+    - 'Partition' = select cpu_short.
+    - 'Instance type' -  select Standard R Job.
+    - 'Number of hours' - select time needed in hours.
+    ![image info](readme_images/rstudio_server_1.png)
+    - click 'Launch'
     
   5. Load the session.
 
