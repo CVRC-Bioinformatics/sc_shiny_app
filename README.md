@@ -24,15 +24,21 @@ to-do:
 *** 
 
 # Load an scRNAseqAPP
-Need a detailed tutorial for the wetlab folks
+Detailed tutorial for loading an app
 
-  1. Start an Rstudio server session via OnDemand
+- Start an Rstudio server session via OnDemand
   
-    * Select 'Conda Environments' from the 'R version' tab.
-    * Path to Conda Environment = '/gpfs/data/cvrcbioinfolab/shared_conda_envs/sc_shiny_app'.
-    * Partition = cpu_short.
-    * Instance type =  Standard R Job.
-    * Number of hours = time needed
+  1. Open a browser and navigate to the ondemand web page (https://ondemand.hpc.nyumc.org/pun/sys/dashboard)
+    - note: you'll need to be connected via VPN if you're not on the local network
+  2. Login with your credentials
+  3. Navigate to the Rstudio Server app page  
+    ![image info](readme_images/rstudio_server_1.png)
+  4. 
+    - Select 'Conda Environments' from the 'R version' tab.
+    - Path to Conda Environment = '/gpfs/data/cvrcbioinfolab/shared_conda_envs/sc_shiny_app'.
+    - Partition = cpu_short.
+    - Instance type =  Standard R Job.
+    - Number of hours = time needed
     
   2. Load the session.
   3. Within the R console run 'source directoryfromabove/sc_shiny_app_run.R'.
