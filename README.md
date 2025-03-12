@@ -25,7 +25,7 @@ to-do:
 *** 
 
 # Load an scRNAseqAPP
-Detailed tutorial for loading an app
+Detailed tutorial for loading an app.
 
 ## *Start an Rstudio server session via OnDemand*
   
