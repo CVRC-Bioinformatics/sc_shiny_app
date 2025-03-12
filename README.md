@@ -10,10 +10,11 @@ Create a [scRNAseqAPP](https://www.bioconductor.org/packages/release/bioc/html/s
     2. Path of Seurat object.
     3. project name.
     4. data modality (has to be 1 of: scRNAseq, scATACseq, scMultiome).
+    5. Additional datasets can be added to the database by modifying the code the 'make_shiny_app.R'
     
     Here's an example command: Rscript --vanilla make_shiny_app.R '/gpfs/data/moorelab/gildem01/shiny_test/' '/gpfs/data/fisherlab/gildem01/Maria_NE/CITEseq_Human_CHORD_2024_05_24/08202024/QC/HCC4/HCC4.rds' 'HCC4' 'scRNAseq'
     
-    5. This script generates an R script named 'sc_shiny_app_run.R'. This is what users will use this in the process to load the app.
+    6. This script generates an R script named 'sc_shiny_app_run.R'. This is what users will use this in the process to load the app.
 
 to-do:
 
