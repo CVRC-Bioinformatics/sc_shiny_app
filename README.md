@@ -43,18 +43,20 @@ Detailed tutorial for loading an app
       - 'Instance type' -  select Standard R Job.
       - 'Number of hours' - select time needed in hours.
       - click 'Launch'
+      - The page should look like this:
     ![image info](readme_images/rstudio_server_2.png)
     
   5. This will bring you to the 'My Interactive Sessions' tab. At first your job will say 'Queued', which means it's waiting in the queue. Once your job is exectued it will say 'Running'. At his point you can load the session my clicking 'Connect to Rstudio Server'
     ![image info](readme_images/rstudio_server_3.png)
     ![image info](readme_images/rstudio_server_4.png)
 
-  5. Load the session.
 
 ## *load the app*
 
-  1. Within the R console run 'source directoryfromabove/sc_shiny_app_run.R'.
-  2. Within the R console run 'scRNAseqApp(app_path = publish_folder)'.
+  1. After clicking 'Connect to Rstudio Server', you're Rstudio Server session will open. The screen will look like this:
+    ![image info](readme_images/rstudio_server_5.png)
+  2. Within the R console run 'source directoryfromabove/sc_shiny_app_run.R'.
+  3. Within the R console run 'scRNAseqApp(app_path = publish_folder)'.
   
     * A new browser window will pop up and the app will load.
     
