@@ -26,10 +26,10 @@ to-do:
 # Load an scRNAseqAPP
 Detailed tutorial for loading an app
 
-- Start an Rstudio server session via OnDemand
+1. Start an Rstudio server session via OnDemand
   
   1. Open a browser and navigate to the ondemand web page (https://ondemand.hpc.nyumc.org/pun/sys/dashboard)
-    - note: you'll need to be connected via VPN if you're not on the local network
+      - note: you'll need to be connected via VPN if you're not on the local network
   2. Login with your credentials
   3. Navigate to the Rstudio Server app page  
     ![image info](readme_images/rstudio_server_1.png)
