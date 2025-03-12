@@ -1,6 +1,6 @@
 # Make an scRNAseqAPP
 
-Create a [scRNAseqAPP](https://www.bioconductor.org/packages/release/bioc/html/scRNAseqApp.html) 
+Create a [scRNAseqAPP](https://www.bioconductor.org/packages/release/bioc/html/scRNAseqApp.html). This tutorial is for the bioinformatics team.
 
   1. load the conda environment via 'source /gpfs/data/cvrcbioinfolab/shared_conda_envs/condaload_sc_shiny_app.sh'
   
