@@ -39,7 +39,7 @@ Detailed tutorial for loading an app
     - 'Partition' = select cpu_short.
     - 'Instance type' -  select Standard R Job.
     - 'Number of hours' - select time needed in hours.
-    ![image info](readme_images/rstudio_server_1.png)
+    ![image info](readme_images/rstudio_server_2.png)
     - click 'Launch'
     
   5. Load the session.
