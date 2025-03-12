@@ -26,9 +26,9 @@ to-do:
 # Load an scRNAseqAPP
 Detailed tutorial for loading an app
 
-1. Start an Rstudio server session via OnDemand
+## Start an Rstudio server session via OnDemand
   
-  1.1. Open a browser and navigate to the ondemand web page (https://ondemand.hpc.nyumc.org/pun/sys/dashboard)
+  1. Open a browser and navigate to the ondemand web page (https://ondemand.hpc.nyumc.org/pun/sys/dashboard)
       - note: you'll need to be connected via VPN if you're not on the local network
   2. Login with your credentials
   3. Navigate to the Rstudio Server app page  
@@ -40,9 +40,12 @@ Detailed tutorial for loading an app
     - Instance type =  Standard R Job.
     - Number of hours = time needed
     
-  2. Load the session.
-  3. Within the R console run 'source directoryfromabove/sc_shiny_app_run.R'.
-  4. Within the R console run 'scRNAseqApp(app_path = publish_folder)'.
+  5. Load the session.
+
+## load the app
+
+  1. Within the R console run 'source directoryfromabove/sc_shiny_app_run.R'.
+  2. Within the R console run 'scRNAseqApp(app_path = publish_folder)'.
   
     * A new browser window will pop up and the app will load.
     
