@@ -31,19 +31,19 @@ Detailed tutorial for loading an app
   1. Open a browser and navigate to the ondemand web page (https://ondemand.hpc.nyumc.org/pun/sys/dashboard)
 
       - note: you'll need to be connected via VPN if you're not on the local network
-      
+
   2. Login with your credentials
   3. Navigate to the Rstudio Server app page  
     ![image info](readme_images/rstudio_server_1.png)
   4. Request an Rstudio Server session
 
-    - Select 'Conda Environments' from the 'R version' tab.
-    - 'Path to Conda Environment' - paste: /gpfs/data/cvrcbioinfolab/shared_conda_envs/sc_shiny_app
-    - 'Partition' = select cpu_short.
-    - 'Instance type' -  select Standard R Job.
-    - 'Number of hours' - select time needed in hours.
+      - Select 'Conda Environments' from the 'R version' tab.
+      - 'Path to Conda Environment' - paste: /gpfs/data/cvrcbioinfolab/shared_conda_envs/sc_shiny_app
+      - 'Partition' = select cpu_short.
+      - 'Instance type' -  select Standard R Job.
+      - 'Number of hours' - select time needed in hours.
+      - click 'Launch'
     ![image info](readme_images/rstudio_server_2.png)
-    - click 'Launch'
     
   5. Load the session.
 
