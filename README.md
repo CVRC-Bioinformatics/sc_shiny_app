@@ -28,7 +28,7 @@ Detailed tutorial for loading an app
 
 1. Start an Rstudio server session via OnDemand
   
-  1. Open a browser and navigate to the ondemand web page (https://ondemand.hpc.nyumc.org/pun/sys/dashboard)
+  1.1. Open a browser and navigate to the ondemand web page (https://ondemand.hpc.nyumc.org/pun/sys/dashboard)
       - note: you'll need to be connected via VPN if you're not on the local network
   2. Login with your credentials
   3. Navigate to the Rstudio Server app page  
