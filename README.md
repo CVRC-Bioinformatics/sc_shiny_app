@@ -47,8 +47,8 @@ Detailed tutorial for loading an app
     
     This will bring you to the 'My Interactive Sessions' tab. At first your job will say 'Queued', which means it's waiting in the queue. Once your job is exectued it will say 'Running'. At his point you can load the session my clicking 'Connect to Rstudio Server'
     
-    ![image info](readme_images/rstudio_server_3.png)
-    ![image info](readme_images/rstudio_server_4.png)
+  ![image info](readme_images/rstudio_server_3.png)
+  ![image info](readme_images/rstudio_server_4.png)
 
   5. Load the session.
 
