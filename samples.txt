@@ -1,0 +1,2 @@
+object_path	object_name	modality	species
+/gpfs/data/fisherlab/gildem01/Maria_NE/Cholesterol_cycling_scRNAseq_072023/arch_integrated.rds	arch	scRNAseq	Mus musculus
