@@ -5,7 +5,8 @@ Create a [scRNAseqAPP](https://www.bioconductor.org/packages/release/bioc/html/s
   1. load the conda environment via 
 
     ```
-    source /gpfs/data/cvrcbioinfolab/shared_conda_envs/condaload_sc_shiny_app.sh
+    module load condaenvs/new/sc_shiny_app
+    
     ```
 
   2. Fill out samples.txt columns with:
@@ -44,7 +45,7 @@ Detailed tutorial for loading an app.
   4. Request an Rstudio Server session
 
       - Select 'Conda Environments' from the 'R version' tab.
-      - 'Path to Conda Environment' - paste: /gpfs/data/cvrcbioinfolab/shared_conda_envs/sc_shiny_app
+      - 'Path to Conda Environment' - paste: /gpfs/share/apps/anaconda3/gpu/2023.09/envs/sc_shiny_app
       - 'Partition' = select cpu_short.
       - 'Instance type' -  select Standard R Job.
       - 'Number of hours' - select time needed in hours.
@@ -66,6 +67,7 @@ Detailed tutorial for loading an app.
     ```
     source('/gpfs/data/lab/sc_shiny_app_run.R')
     ```
+
   3. Within the R console paste the following command and hit enter:
     
     ```
