@@ -1,5 +1,5 @@
 # Make an scRNAseqAPP
-
+###### Update everything to load the conda module Kevin created module load condaenvs/new/sc_shiny_app 
 Create a [scRNAseqAPP](https://www.bioconductor.org/packages/release/bioc/html/scRNAseqApp.html). This tutorial is for the bioinformatics team.
 
   1. load the conda environment via 
@@ -64,7 +64,7 @@ Detailed tutorial for loading an app.
   2. The R console is the box on the left that says 'console' on the top. Within the R console paste the command we sent you and hit enter. The command will look something like this: 
 
     ```
-    source directoryfromabove/sc_shiny_app_run.R
+    source('/gpfs/data/lab/sc_shiny_app_run.R')
     ```
   3. Within the R console paste the following command and hit enter:
     
